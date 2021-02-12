@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>form</title>
+</head>
+
+<body>
+    <div class="spaceup"></div>
+    <div class="center">
+        <form id="form">
+            <div style="padding-top: 50px"></div>
+            <div class="outer">
+                <div id="label" class="labelClass">
+                    <label for="Select Your Source"> Select Your Source: </label>
+                </div>
+                <div id="input">
+                    <div class="vertical"></div>
+                    <div class="dropdown-container">
+                        <select class="element1 fosi" name="Select Your Source" id="Select Your Source">
+                            <option value="Google Cloud Platform" default>Google Cloud Platform</option>
+                            <option value="AWS">AWS</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="outer">
+                <div id="label" class="labelClass">
+                    <label for="Provide Name For Pipeline"> Provide Name For Pipeline: </label>
+                </div>
+                <div id="input1">
+                    <div class="vertical"></div><input class="element ele" name="in1" type="text"
+                        id="Provide Name For Pipeline" placeholder="e.g., cust_shop_energy_gateway001" />
+                </div>
+            </div>
+
+            <div class="outer">
+                <div id="label" class="labelClass">
+                    <label for="GCS project name"> GCS project name: </label>
+                </div>
+                <div id="input2">
+                    <div class="vertical"></div><input class="element ele" name="in2" type="text" id="GCS project name"
+                        placeholder="project-id" />
+                </div>
+            </div>
+
+            <div class="outer">
+                <div id="label" class="labelClass">
+                    <label for="GCS bucket name"> GCS bucket name: </label>
+                </div>
+                <div id="input3">
+                    <div class="vertical"></div><input class="element ele" name="in3" type="text" id="GCS bucket name"
+                        placeholder="gs://your-bucket" />
+                </div>
+            </div>
+
+            <div class="outer">
+                <div id="label" class="labelClass">
+                    <label for="Input Cloud Storage File(s)"> Input Cloud Storage File(s): </label>
+                </div>
+                <div id="input4">
+                    <div class="vertical"></div><input class="element ele" name="in4" type="text"
+                        id="Input Cloud Storage File(s)" placeholder="GCS location of your files" />
+                    <span style="text-align: left" class="span1">Example:gs://your-bucket/your-files/01.csv</span>
+                </div>
+            </div>
+
+            <div class="outer">
+                <div id="label" class="labelClass">
+                    <label for="GCS credentials"> GCS credentials: </label>
+                </div>
+                <div id="input5">
+                    <div class="vertical"></div><input class="element2 ele" name="in5" type="text"
+                        id="GCS credentials" />
+                </div>
+            </div>
+
+            <div class="outer">
+                <div id="label" class="labelClass">
+                    <label for="Run Every"> Run Every: </label>
+                </div>
+                <div id="input6">
+                    <div class="vertical"></div><input class="element ele" name="in6" type="text" id="Run Every"
+                        placeholder="(in minutes)" />
+                </div>
+            </div>
+
+            <div class="outer">
+                <div id="label" class="labelClass">
+                    <button type="submit" class="button">Create</button>
+                </div>
+                <div id="but">
+                    <button class="button">Cancel</button>
+                </div>
+            </div>
+
+            <div class="stron">
+                <div class="tooltip"><span style="font-size:38px">&#9757;</span><span class="tooltiptext">Each field
+                        except "Run Every" has-> Minimum character length
+                        requirement of 5. No special characters(except ':' '/' '_' ).Cannot start with &#39;-&#39;,
+                        &#39;_&#39;, &#39;+&#39;</span></div>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

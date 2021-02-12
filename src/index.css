@@ -1,0 +1,143 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #110b1098;
+    padding: 10px;
+  }
+.spaceup{
+    padding-top: 20px !important;
+} 
+/*.elements{
+    display:flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}*/
+.outer {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+  }
+  /* #label, #label1, #label2, #label3 {
+    width: 30%;
+    float: left;
+  } */
+  .labelClass {
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 17px;
+    font-size: 18px;
+  }
+  #input, #input1, #input3,#input2,#input4,#input5,#input6{
+    width: 60%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  .input {
+    width: 100%;
+  }
+.button{
+    background-color: #81acbb; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#but{
+    width: 40%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 17px;
+}
+.element {
+    height:28px;
+    border: none !important;
+    border-color: transparent !important;
+    background-color: rgb(199, 191, 191);
+    outline: none;
+}
+.element1 {
+    height:28px;
+    border: none !important;
+    border-color: transparent !important;
+    background-color: white !important;
+    outline: none;
+}
+.element2 {
+    height:28px;
+    border: none !important;
+    border-color: transparent !important;
+    background-color: rgba(128, 120, 120, 0.856) !important;
+    outline: none;
+}
+.span1{
+    color: rgb(199, 191, 191);
+}
+.vertical { 
+    border-left: 3px solid black; 
+    height: 31px; 
+    position:absolute; 
+    left: 40.2%; 
+} 
+.dropdown-container select { 
+    /* for Firefox */ 
+    -moz-appearance: none; 
+    /* for Safari, Chrome, Opera */ 
+    -webkit-appearance: none; 
+  } 
+
+  /* for IE10 */ 
+  .dropdown-container select::-ms-expand { 
+    display: none; 
+  } 
+ .fosi{
+    font-size: 23px;
+    float:right;
+ }
+.ele{
+    color: #FF0000;
+    }
+.elev{     
+color: black;
+background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 450px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .stron{
+   padding-left: 50%;
+  }
+​
+ 
